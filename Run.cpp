@@ -62,13 +62,13 @@ int main(){
       if(fun.someOneWins()==1){
         fun.printArr();
         cout<<"Player Wins!"<<endl;
-        return 0;
+        break;
       }
       else if(fun.someOneWins()==2){
         fun.printArr();
         cout<<"Machine Wins!"<<endl;
         fun.resetArray();
-        return 0;
+        break ;
       }
       else if(fun.someOneWins()==3){
         fun.printArr();
